@@ -136,7 +136,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B274FB322C20063008E0CFD /* HLLEmpeyData */ = {
+		5B274FB322C20063008E0CFD /* HLLEmpeyDataSource */ = {
 			isa = PBXGroup;
 			children = (
 				5B64553622C085E200C2D2CA /* HLLEmptyDataSetHelper.h */,
@@ -148,7 +148,7 @@
 				5B64552E22C085AD00C2D2CA /* UIScrollView+HLLScrollView.h */,
 				5B64552F22C085AD00C2D2CA /* UIScrollView+HLLScrollView.m */,
 			);
-			path = HLLEmpeyData;
+			path = HLLEmpeyDataSource;
 			sourceTree = "<group>";
 		};
 		5B274FB422C20078008E0CFD /* Demo */ = {
@@ -191,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				5B274FB422C20078008E0CFD /* Demo */,
-				5B274FB322C20063008E0CFD /* HLLEmpeyData */,
+				5B274FB322C20063008E0CFD /* HLLEmpeyDataSource */,
 				5B6454FC22C0809800C2D2CA /* AppDelegate.swift */,
 				5B64552D22C085AD00C2D2CA /* HLLEmptyData-Bridging-Header.h */,
 				5B64550622C0809B00C2D2CA /* Assets.xcassets */,

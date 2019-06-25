@@ -8,7 +8,7 @@
 
 #import "HLLSmallViewController.h"
 #import "UIScrollView+HLLScrollView.h"
-#import "MJRefresh.h"
+
 @interface HLLSmallViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *data;
@@ -21,18 +21,6 @@ static NSString *cellID = @"cellID";
     [super viewDidLoad];
     [_tableView hll_setUp];
     __weak typeof(self) weakSelf = self;
-//    _tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
-//        sleep(1);
-//        [weakSelf.tableView.mj_footer endRefreshing];
-//        weakSelf.data = @[@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one",@"one"];
-//        [weakSelf.tableView reloadData];
-//    }];
-//    _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-//        sleep(1);
-//        [weakSelf.tableView.mj_header endRefreshing];
-//        weakSelf.data = @[@"one",@"one",@"one"];
-//        [weakSelf.tableView reloadData];
-//    }];
     self.data = [NSMutableArray array];
     // Do any additional setup after loading the view from its nib.
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
