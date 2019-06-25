@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2B5C25667D13974F74C942 /* Pods_HLLEmptyDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2140A69B1308C01D87F35B85 /* Pods_HLLEmptyDataTests.framework */; };
+		5B274FB122C1F948008E0CFD /* HLLSmallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B274FAF22C1F948008E0CFD /* HLLSmallViewController.m */; };
+		5B274FB222C1F948008E0CFD /* HLLSmallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B274FB022C1F948008E0CFD /* HLLSmallViewController.xib */; };
+		5B6454FD22C0809800C2D2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454FC22C0809800C2D2CA /* AppDelegate.swift */; };
+		5B6454FF22C0809800C2D2CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6454FE22C0809800C2D2CA /* ViewController.swift */; };
+		5B64550222C0809800C2D2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B64550022C0809800C2D2CA /* Main.storyboard */; };
+		5B64550522C0809800C2D2CA /* HLLEmptyData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B64550322C0809800C2D2CA /* HLLEmptyData.xcdatamodeld */; };
+		5B64550722C0809B00C2D2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B64550622C0809B00C2D2CA /* Assets.xcassets */; };
+		5B64550A22C0809B00C2D2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B64550822C0809B00C2D2CA /* LaunchScreen.storyboard */; };
+		5B64551522C0809B00C2D2CA /* HLLEmptyDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64551422C0809B00C2D2CA /* HLLEmptyDataTests.swift */; };
+		5B64552022C0809C00C2D2CA /* HLLEmptyDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64551F22C0809C00C2D2CA /* HLLEmptyDataUITests.swift */; };
+		5B64553022C085AD00C2D2CA /* UIScrollView+HLLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B64552F22C085AD00C2D2CA /* UIScrollView+HLLScrollView.m */; };
+		5B64553722C085E200C2D2CA /* HLLNoDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B64553122C085E100C2D2CA /* HLLNoDataType.m */; };
+		5B64553822C085E200C2D2CA /* HLLEmptyDataSetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B64553322C085E200C2D2CA /* HLLEmptyDataSetHelper.m */; };
+		5B64553922C085E200C2D2CA /* HLLRefreshHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B64553522C085E200C2D2CA /* HLLRefreshHelper.m */; };
+		5B64553D22C0CDCE00C2D2CA /* HLLScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64553B22C0CDCD00C2D2CA /* HLLScrollViewController.swift */; };
+		5B64553E22C0CDCE00C2D2CA /* HLLCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64553C22C0CDCD00C2D2CA /* HLLCollectionViewController.swift */; };
+		9B5BB3236C323656152F3FE4 /* Pods_HLLEmptyData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC98F45EFA842E5B58D1FC74 /* Pods_HLLEmptyData.framework */; };
+		A54ABFE12BEC5691C6BC94AA /* Pods_HLLEmptyDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766281BCF7FC41DBED28D02F /* Pods_HLLEmptyDataUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B64551122C0809B00C2D2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6454F122C0809800C2D2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6454F822C0809800C2D2CA;
+			remoteInfo = HLLEmptyData;
+		};
+		5B64551C22C0809B00C2D2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6454F122C0809800C2D2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6454F822C0809800C2D2CA;
+			remoteInfo = HLLEmptyData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1704E806AC4FCADB6017D8AB /* Pods-HLLEmptyData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyData/Pods-HLLEmptyData.debug.xcconfig"; sourceTree = "<group>"; };
+		2140A69B1308C01D87F35B85 /* Pods_HLLEmptyDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLEmptyDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B274FAE22C1F948008E0CFD /* HLLSmallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLSmallViewController.h; sourceTree = "<group>"; };
+		5B274FAF22C1F948008E0CFD /* HLLSmallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLSmallViewController.m; sourceTree = "<group>"; };
+		5B274FB022C1F948008E0CFD /* HLLSmallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLLSmallViewController.xib; sourceTree = "<group>"; };
+		5B6454F922C0809800C2D2CA /* HLLEmptyData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLLEmptyData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6454FC22C0809800C2D2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B6454FE22C0809800C2D2CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B64550122C0809800C2D2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B64550422C0809800C2D2CA /* HLLEmptyData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HLLEmptyData.xcdatamodel; sourceTree = "<group>"; };
+		5B64550622C0809B00C2D2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B64550922C0809B00C2D2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B64550B22C0809B00C2D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B64551022C0809B00C2D2CA /* HLLEmptyDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLEmptyDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B64551422C0809B00C2D2CA /* HLLEmptyDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLEmptyDataTests.swift; sourceTree = "<group>"; };
+		5B64551622C0809B00C2D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B64551B22C0809B00C2D2CA /* HLLEmptyDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLEmptyDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B64551F22C0809C00C2D2CA /* HLLEmptyDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLEmptyDataUITests.swift; sourceTree = "<group>"; };
+		5B64552122C0809C00C2D2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B64552D22C085AD00C2D2CA /* HLLEmptyData-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLLEmptyData-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B64552E22C085AD00C2D2CA /* UIScrollView+HLLScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HLLScrollView.h"; sourceTree = "<group>"; };
+		5B64552F22C085AD00C2D2CA /* UIScrollView+HLLScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HLLScrollView.m"; sourceTree = "<group>"; };
+		5B64553122C085E100C2D2CA /* HLLNoDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLNoDataType.m; sourceTree = "<group>"; };
+		5B64553222C085E200C2D2CA /* HLLNoDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNoDataType.h; sourceTree = "<group>"; };
+		5B64553322C085E200C2D2CA /* HLLEmptyDataSetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLEmptyDataSetHelper.m; sourceTree = "<group>"; };
+		5B64553422C085E200C2D2CA /* HLLRefreshHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLRefreshHelper.h; sourceTree = "<group>"; };
+		5B64553522C085E200C2D2CA /* HLLRefreshHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLRefreshHelper.m; sourceTree = "<group>"; };
+		5B64553622C085E200C2D2CA /* HLLEmptyDataSetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLEmptyDataSetHelper.h; sourceTree = "<group>"; };
+		5B64553B22C0CDCD00C2D2CA /* HLLScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLScrollViewController.swift; sourceTree = "<group>"; };
+		5B64553C22C0CDCD00C2D2CA /* HLLCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLCollectionViewController.swift; sourceTree = "<group>"; };
+		638FC920ADD9C1C40789FF55 /* Pods-HLLEmptyDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyDataTests/Pods-HLLEmptyDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		766281BCF7FC41DBED28D02F /* Pods_HLLEmptyDataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLEmptyDataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C89BF0AE4DB024F9FBEA03E /* Pods-HLLEmptyData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyData.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyData/Pods-HLLEmptyData.release.xcconfig"; sourceTree = "<group>"; };
+		7D625E4BC261B8215E2F086C /* Pods-HLLEmptyDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyDataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyDataUITests/Pods-HLLEmptyDataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83F7EF662F6FDE85DA6D882A /* Pods-HLLEmptyDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyDataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyDataUITests/Pods-HLLEmptyDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B195B34248DBDF92E6F12C /* Pods-HLLEmptyDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLLEmptyDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLLEmptyDataTests/Pods-HLLEmptyDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC98F45EFA842E5B58D1FC74 /* Pods_HLLEmptyData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLLEmptyData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6454F622C0809800C2D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BB3236C323656152F3FE4 /* Pods_HLLEmptyData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64550D22C0809B00C2D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2B5C25667D13974F74C942 /* Pods_HLLEmptyDataTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64551822C0809B00C2D2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54ABFE12BEC5691C6BC94AA /* Pods_HLLEmptyDataUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF7E3072C233EBED5D6365A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1704E806AC4FCADB6017D8AB /* Pods-HLLEmptyData.debug.xcconfig */,
+				7C89BF0AE4DB024F9FBEA03E /* Pods-HLLEmptyData.release.xcconfig */,
+				A9B195B34248DBDF92E6F12C /* Pods-HLLEmptyDataTests.debug.xcconfig */,
+				638FC920ADD9C1C40789FF55 /* Pods-HLLEmptyDataTests.release.xcconfig */,
+				83F7EF662F6FDE85DA6D882A /* Pods-HLLEmptyDataUITests.debug.xcconfig */,
+				7D625E4BC261B8215E2F086C /* Pods-HLLEmptyDataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DFC0FA9E892455CFC02B069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC98F45EFA842E5B58D1FC74 /* Pods_HLLEmptyData.framework */,
+				2140A69B1308C01D87F35B85 /* Pods_HLLEmptyDataTests.framework */,
+				766281BCF7FC41DBED28D02F /* Pods_HLLEmptyDataUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B274FB322C20063008E0CFD /* HLLEmpeyData */ = {
+			isa = PBXGroup;
+			children = (
+				5B64553622C085E200C2D2CA /* HLLEmptyDataSetHelper.h */,
+				5B64553322C085E200C2D2CA /* HLLEmptyDataSetHelper.m */,
+				5B64553222C085E200C2D2CA /* HLLNoDataType.h */,
+				5B64553122C085E100C2D2CA /* HLLNoDataType.m */,
+				5B64553422C085E200C2D2CA /* HLLRefreshHelper.h */,
+				5B64553522C085E200C2D2CA /* HLLRefreshHelper.m */,
+				5B64552E22C085AD00C2D2CA /* UIScrollView+HLLScrollView.h */,
+				5B64552F22C085AD00C2D2CA /* UIScrollView+HLLScrollView.m */,
+			);
+			path = HLLEmpeyData;
+			sourceTree = "<group>";
+		};
+		5B274FB422C20078008E0CFD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5B6454FE22C0809800C2D2CA /* ViewController.swift */,
+				5B64550022C0809800C2D2CA /* Main.storyboard */,
+				5B64553C22C0CDCD00C2D2CA /* HLLCollectionViewController.swift */,
+				5B64553B22C0CDCD00C2D2CA /* HLLScrollViewController.swift */,
+				5B274FAE22C1F948008E0CFD /* HLLSmallViewController.h */,
+				5B274FAF22C1F948008E0CFD /* HLLSmallViewController.m */,
+				5B274FB022C1F948008E0CFD /* HLLSmallViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		5B6454F022C0809800C2D2CA = {
+			isa = PBXGroup;
+			children = (
+				5B6454FB22C0809800C2D2CA /* HLLEmptyData */,
+				5B64551322C0809B00C2D2CA /* HLLEmptyDataTests */,
+				5B64551E22C0809C00C2D2CA /* HLLEmptyDataUITests */,
+				5B6454FA22C0809800C2D2CA /* Products */,
+				1FF7E3072C233EBED5D6365A /* Pods */,
+				3DFC0FA9E892455CFC02B069 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6454FA22C0809800C2D2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6454F922C0809800C2D2CA /* HLLEmptyData.app */,
+				5B64551022C0809B00C2D2CA /* HLLEmptyDataTests.xctest */,
+				5B64551B22C0809B00C2D2CA /* HLLEmptyDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6454FB22C0809800C2D2CA /* HLLEmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				5B274FB422C20078008E0CFD /* Demo */,
+				5B274FB322C20063008E0CFD /* HLLEmpeyData */,
+				5B6454FC22C0809800C2D2CA /* AppDelegate.swift */,
+				5B64552D22C085AD00C2D2CA /* HLLEmptyData-Bridging-Header.h */,
+				5B64550622C0809B00C2D2CA /* Assets.xcassets */,
+				5B64550822C0809B00C2D2CA /* LaunchScreen.storyboard */,
+				5B64550B22C0809B00C2D2CA /* Info.plist */,
+				5B64550322C0809800C2D2CA /* HLLEmptyData.xcdatamodeld */,
+			);
+			path = HLLEmptyData;
+			sourceTree = "<group>";
+		};
+		5B64551322C0809B00C2D2CA /* HLLEmptyDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B64551422C0809B00C2D2CA /* HLLEmptyDataTests.swift */,
+				5B64551622C0809B00C2D2CA /* Info.plist */,
+			);
+			path = HLLEmptyDataTests;
+			sourceTree = "<group>";
+		};
+		5B64551E22C0809C00C2D2CA /* HLLEmptyDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B64551F22C0809C00C2D2CA /* HLLEmptyDataUITests.swift */,
+				5B64552122C0809C00C2D2CA /* Info.plist */,
+			);
+			path = HLLEmptyDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6454F822C0809800C2D2CA /* HLLEmptyData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B64552422C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyData" */;
+			buildPhases = (
+				B39A60625A626EA64B417FFD /* [CP] Check Pods Manifest.lock */,
+				5B6454F522C0809800C2D2CA /* Sources */,
+				5B6454F622C0809800C2D2CA /* Frameworks */,
+				5B6454F722C0809800C2D2CA /* Resources */,
+				7DC1370B813F43155D01DF44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLLEmptyData;
+			productName = HLLEmptyData;
+			productReference = 5B6454F922C0809800C2D2CA /* HLLEmptyData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B64550F22C0809B00C2D2CA /* HLLEmptyDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B64552722C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyDataTests" */;
+			buildPhases = (
+				658DB603CAB2DEFAB0D69F9A /* [CP] Check Pods Manifest.lock */,
+				5B64550C22C0809B00C2D2CA /* Sources */,
+				5B64550D22C0809B00C2D2CA /* Frameworks */,
+				5B64550E22C0809B00C2D2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B64551222C0809B00C2D2CA /* PBXTargetDependency */,
+			);
+			name = HLLEmptyDataTests;
+			productName = HLLEmptyDataTests;
+			productReference = 5B64551022C0809B00C2D2CA /* HLLEmptyDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B64551A22C0809B00C2D2CA /* HLLEmptyDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B64552A22C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyDataUITests" */;
+			buildPhases = (
+				D860E1BBC034A81A7608365B /* [CP] Check Pods Manifest.lock */,
+				5B64551722C0809B00C2D2CA /* Sources */,
+				5B64551822C0809B00C2D2CA /* Frameworks */,
+				5B64551922C0809B00C2D2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B64551D22C0809B00C2D2CA /* PBXTargetDependency */,
+			);
+			name = HLLEmptyDataUITests;
+			productName = HLLEmptyDataUITests;
+			productReference = 5B64551B22C0809B00C2D2CA /* HLLEmptyDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6454F122C0809800C2D2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = com.heron;
+				TargetAttributes = {
+					5B6454F822C0809800C2D2CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					5B64550F22C0809B00C2D2CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5B6454F822C0809800C2D2CA;
+					};
+					5B64551A22C0809B00C2D2CA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5B6454F822C0809800C2D2CA;
+					};
+				};
+			};
+			buildConfigurationList = 5B6454F422C0809800C2D2CA /* Build configuration list for PBXProject "HLLEmptyData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6454F022C0809800C2D2CA;
+			productRefGroup = 5B6454FA22C0809800C2D2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6454F822C0809800C2D2CA /* HLLEmptyData */,
+				5B64550F22C0809B00C2D2CA /* HLLEmptyDataTests */,
+				5B64551A22C0809B00C2D2CA /* HLLEmptyDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6454F722C0809800C2D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64550A22C0809B00C2D2CA /* LaunchScreen.storyboard in Resources */,
+				5B64550722C0809B00C2D2CA /* Assets.xcassets in Resources */,
+				5B64550222C0809800C2D2CA /* Main.storyboard in Resources */,
+				5B274FB222C1F948008E0CFD /* HLLSmallViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64550E22C0809B00C2D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64551922C0809B00C2D2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658DB603CAB2DEFAB0D69F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLEmptyDataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC1370B813F43155D01DF44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HLLEmptyData/Pods-HLLEmptyData-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLLEmptyData/Pods-HLLEmptyData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39A60625A626EA64B417FFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLEmptyData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D860E1BBC034A81A7608365B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLLEmptyDataUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6454F522C0809800C2D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64553722C085E200C2D2CA /* HLLNoDataType.m in Sources */,
+				5B64553822C085E200C2D2CA /* HLLEmptyDataSetHelper.m in Sources */,
+				5B64553E22C0CDCE00C2D2CA /* HLLCollectionViewController.swift in Sources */,
+				5B64553022C085AD00C2D2CA /* UIScrollView+HLLScrollView.m in Sources */,
+				5B64550522C0809800C2D2CA /* HLLEmptyData.xcdatamodeld in Sources */,
+				5B64553922C085E200C2D2CA /* HLLRefreshHelper.m in Sources */,
+				5B6454FF22C0809800C2D2CA /* ViewController.swift in Sources */,
+				5B274FB122C1F948008E0CFD /* HLLSmallViewController.m in Sources */,
+				5B64553D22C0CDCE00C2D2CA /* HLLScrollViewController.swift in Sources */,
+				5B6454FD22C0809800C2D2CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64550C22C0809B00C2D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64551522C0809B00C2D2CA /* HLLEmptyDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B64551722C0809B00C2D2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64552022C0809C00C2D2CA /* HLLEmptyDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B64551222C0809B00C2D2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6454F822C0809800C2D2CA /* HLLEmptyData */;
+			targetProxy = 5B64551122C0809B00C2D2CA /* PBXContainerItemProxy */;
+		};
+		5B64551D22C0809B00C2D2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6454F822C0809800C2D2CA /* HLLEmptyData */;
+			targetProxy = 5B64551C22C0809B00C2D2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B64550022C0809800C2D2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B64550122C0809800C2D2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B64550822C0809B00C2D2CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B64550922C0809B00C2D2CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B64552222C0809C00C2D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B64552322C0809C00C2D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B64552522C0809C00C2D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1704E806AC4FCADB6017D8AB /* Pods-HLLEmptyData.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLLEmptyData/HLLEmptyData-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B64552622C0809C00C2D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C89BF0AE4DB024F9FBEA03E /* Pods-HLLEmptyData.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLLEmptyData/HLLEmptyData-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B64552822C0809C00C2D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B195B34248DBDF92E6F12C /* Pods-HLLEmptyDataTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLEmptyData.app/HLLEmptyData";
+			};
+			name = Debug;
+		};
+		5B64552922C0809C00C2D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638FC920ADD9C1C40789FF55 /* Pods-HLLEmptyDataTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLLEmptyData.app/HLLEmptyData";
+			};
+			name = Release;
+		};
+		5B64552B22C0809C00C2D2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F7EF662F6FDE85DA6D882A /* Pods-HLLEmptyDataUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLEmptyData;
+			};
+			name = Debug;
+		};
+		5B64552C22C0809C00C2D2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D625E4BC261B8215E2F086C /* Pods-HLLEmptyDataUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLLEmptyDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heron.HLLEmptyDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLLEmptyData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6454F422C0809800C2D2CA /* Build configuration list for PBXProject "HLLEmptyData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B64552222C0809C00C2D2CA /* Debug */,
+				5B64552322C0809C00C2D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B64552422C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B64552522C0809C00C2D2CA /* Debug */,
+				5B64552622C0809C00C2D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B64552722C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B64552822C0809C00C2D2CA /* Debug */,
+				5B64552922C0809C00C2D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B64552A22C0809C00C2D2CA /* Build configuration list for PBXNativeTarget "HLLEmptyDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B64552B22C0809C00C2D2CA /* Debug */,
+				5B64552C22C0809C00C2D2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B64550322C0809800C2D2CA /* HLLEmptyData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B64550422C0809800C2D2CA /* HLLEmptyData.xcdatamodel */,
+			);
+			currentVersion = 5B64550422C0809800C2D2CA /* HLLEmptyData.xcdatamodel */;
+			path = HLLEmptyData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B6454F122C0809800C2D2CA /* Project object */;
+}
